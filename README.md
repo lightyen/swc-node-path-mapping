@@ -1,0 +1,2 @@
+- https://www.typescriptlang.org/docs/handbook/module-resolution.html#path-mapping
+- https://github.com/microsoft/TypeScript/issues/5039

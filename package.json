@@ -1,9 +1,10 @@
 {
   "name": "swc-node-path-mapping",
+  "private": true,
   "main": "index.js",
   "devDependencies": {
-    "@swc-node/register": "^1.4.0",
-    "@types/node": "^16.11.10"
+    "@swc-node/register": "1.5.2",
+    "@types/node": "*"
   },
   "scripts": {
     "start": "node index.js"

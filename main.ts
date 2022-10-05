@@ -1,3 +1,4 @@
 import { hello } from "x/t"
+import { now } from "x/date"
 hello()
-export default {}
+console.log(now())

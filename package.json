@@ -3,10 +3,12 @@
   "private": true,
   "main": "index.js",
   "devDependencies": {
-    "@swc-node/register": "1.5.2",
-    "@types/node": "*"
+    "@swc-node/register": "1.6.2",
+    "@swc/core": "^1.3.35",
+    "@types/node": "*",
+    "typescript": "^4.9.5"
   },
   "scripts": {
-    "start": "node index.js"
+    "start": "SWCRC=true node index.js"
   }
 }
